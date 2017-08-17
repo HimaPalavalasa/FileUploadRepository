@@ -1,9 +1,0 @@
-heb sep 3 19.44/38.98??
-costo 11/26 220.08
-costco 11/2139.37 or 29.18??
-costco 08/29 144.94
-08/17 gracepoint 93
-08/10 gracepoint  160
-07/28 neisd 286.75
-
-DocumentMetaDataVO [uuid=665ae2e9-4443-44c2-9d31-5c90343d0408, fileName=expenses.txt, itemName=Perry, itemType=book]

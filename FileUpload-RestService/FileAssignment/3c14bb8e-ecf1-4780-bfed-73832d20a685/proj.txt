@@ -1,0 +1,9 @@
+assignment - done
+security
+jpa not now
+exceptionhandling - done
+logging - done
+swagger
+validation- done
+github
+DocumentMetaDataVO [uuid=3c14bb8e-ecf1-4780-bfed-73832d20a685, fileName=proj.txt, itemName=Mason, itemType=book]

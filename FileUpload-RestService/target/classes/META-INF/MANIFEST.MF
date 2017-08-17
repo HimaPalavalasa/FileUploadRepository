@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: FileUpload-RestService Maven Webapp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: HimaP
+Implementation-Vendor-Id: org.springframework
+Build-Jdk: 1.8.0_144
+Implementation-URL: http://projects.spring.io/spring-boot/FileUpload-R
+ estService/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

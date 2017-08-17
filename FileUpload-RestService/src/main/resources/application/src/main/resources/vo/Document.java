@@ -8,29 +8,30 @@ import java.util.Arrays;
  * @author HimaP
  *
  */
-public class DocumentVO extends DocumentMetaDataVO implements Serializable{
+public class Document extends DocumentMetaData implements Serializable {
 
 	/**
 	 * serialVersionUID
 	 */
 	private static final long serialVersionUID = 2201415861401811259L;
 	private byte[] fileData;
-    
-    public DocumentVO( byte[] fileData, String fileName, String itemName, String itemType) {
-        super(fileName, itemName, itemType);
-        this.fileData = fileData;
-    }
-    
-    public DocumentMetaDataVO getMetadata() {
-        return new DocumentMetaDataVO(getUuid(), getFileName(), getItemName(), getItemType());
-    }
-    
-    public byte[] getFileData() {
-        return fileData;
-    }
-    public void setFileData(byte[] fileData) {
-        this.fileData = fileData;
-    }
+
+	public Document(byte[] fileData, String fileName, String itemName, String itemType) {
+		super(fileName, itemName, itemType);
+		this.fileData = fileData;
+	}
+
+	public DocumentMetaData getMetadata() {
+		return new DocumentMetaData(getUuid(), getFileName(), getItemName(), getItemType());
+	}
+
+	public byte[] getFileData() {
+		return fileData;
+	}
+
+	public void setFileData(byte[] fileData) {
+		this.fileData = fileData;
+	}
 
 	@Override
 	public String toString() {
@@ -41,5 +42,5 @@ public class DocumentVO extends DocumentMetaDataVO implements Serializable{
 				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
 				+ "]";
 	}
-    
+
 }

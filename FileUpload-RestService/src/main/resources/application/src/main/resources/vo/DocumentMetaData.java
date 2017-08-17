@@ -3,18 +3,18 @@ package src.main.resources.vo;
 import java.io.Serializable;
 import java.util.UUID;
 
-public class DocumentMetaDataVO implements Serializable {
-	
+public class DocumentMetaData implements Serializable {
+
 	/**
 	 * serialVersionUID
 	 */
 	private static final long serialVersionUID = -5804785042092112065L;
 	protected String uuid;
-    protected String fileName;
-    protected String itemName;
-    protected String itemType;
-    
-	public DocumentMetaDataVO(String fileName, String itemName, String itemType) {
+	protected String fileName;
+	protected String itemName;
+	protected String itemType;
+
+	public DocumentMetaData(String fileName, String itemName, String itemType) {
 		super();
 		this.uuid = UUID.randomUUID().toString();
 		this.fileName = fileName;
@@ -22,14 +22,13 @@ public class DocumentMetaDataVO implements Serializable {
 		this.itemType = itemType;
 	}
 
-	public DocumentMetaDataVO(String uuid, String fileName, String itemName, String itemType) {
+	public DocumentMetaData(String uuid, String fileName, String itemName, String itemType) {
 		super();
 		this.uuid = uuid;
 		this.fileName = fileName;
 		this.itemName = itemName;
 		this.itemType = itemType;
 	}
-
 
 	public String getUuid() {
 		return uuid;
